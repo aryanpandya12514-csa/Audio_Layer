@@ -223,8 +223,4 @@ python trainer.py
 - [ ] Phase 6: Automatic Speech Recognition (Whisper ASR Integration)
 - [ ] Phase 7: NLP Fact-Checking & Semantic Logic Consistency Verification
 
----
 
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
