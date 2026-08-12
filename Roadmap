@@ -1,0 +1,16 @@
+audio_forensics_project/
+│
+├── data/
+│
+├── notebooks/
+│
+├── src/                        
+│   ├── audio_extraction.py     (Phase 1: FFmpeg)
+│   ├── feature_builder.py      (Phase 2: Librosa Spectrograms)
+│   ├── anomaly_detector.py     (Phase 3: Acoustic Sniff Test)
+│   ├── model_classifier.py     (Phase 4: CNN Fake Voice Detector)
+│   │
+│   ├── transcriber.py          <-- NEW: (Phase 6: Whisper ASR)
+│   └── fact_checker.py         <-- NEW: (Phase 7: NLP Logic Check)
+│
+└── main.py                     (Phase 5: Combines Acoustic + Fact Scores)
